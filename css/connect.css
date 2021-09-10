@@ -3,6 +3,10 @@
 body{
     background-color: black;
 }
+html
+{
+    scroll-behavior: smooth;
+}
 .container-socialmedia{
     display: flex;
     justify-content: center;
@@ -47,14 +51,14 @@ body{
     position: sticky;
     float: right;
     bottom: 2px;
-   transition: all 3s;
+    transition: all 3s;
    
 }
+
 .box a{
     text-decoration: none;
     color: rgb(8, 8, 8);
     font-weight: bold;
-  
 }
 .box:hover{
      transition: all 3s;
