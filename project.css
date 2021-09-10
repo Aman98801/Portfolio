@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(237, 237, 248);
+}
+.h-seven{
+    /* border: 3px solid red; */
+    width: 370px;
+    padding: 10px 10px;
+    margin: 40px auto;
+    font-size: 40px;
+    border-radius: 30px;
+    /* background-color: tomato; */
+    color: rgb(226, 233, 240);
+    /* color: rgb(255, 255, 255); */
+}
+
+.container-project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.first, .second, .third{
+    /* border: 3px solid red; */
+    font-size: 21px;
+    font-weight: bold;
+    width: 41%;
+    height: 307px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 2px 0px 13px 0px white;
+}
+.first h1,.second h1,.third h1{
+    font-size: 30px;
+    margin: 8px 0px;
+    /* border: 3px solid black; */
+}
+
+
+.img-1{
+    width: 40px;
+    height: 40px;
+}
+
+.paragraph-1{
+    padding: 10px;
+    margin: auto;
+    /* border: 3px solid red; */
+}
+.paragraph-1 span{
+     font-weight: bold;
+     font-size: 25px;
+     margin-left: 8px;
+}
+
+.git-link {
+    width: 200px;
+    margin: 25px 100px  ;
+}
+.git-link a{
+    font-size: 22px;
+    text-decoration: none;
+    padding: 7px 20px;
+    /* border: 3px solid red; */
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    /* transition: all 2s ease-in; */
+    
+}
+.second,.third{
+    margin-top: 30px;
+}
+
+.first{
+   background-color: #b6c3cf;
+}
+.second{
+    background-color: #d8c3e2;
+}
+.third{
+    background-color: #b6cfcc;
+}
+
+.git-link a:hover{
+    color: rgb(255, 255, 255);
+    transition: all 1s ;
+    color: aliceblue;
+    background-color: rgb(18, 18, 19);
+   width:220px ;
+   padding: 10px 25px;
+    background: linear-gradient(to bottom, #cf935a 0%, #32d893 100%);
+}
+
+.para-project{
+    margin-left: 20px;
+    margin-right: 20px;
+    /* border: 3px solid red; */
+}

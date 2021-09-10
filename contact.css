@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(230, 217, 217);
+}
+#contact{
+    position: relative;
+}
+.container-contact::before{
+    content: "";
+    position: absolute;
+    /* background:#70a4cff8; */
+    background: url('https://media.istockphoto.com/vectors/world-map-with-flight-paths-vector-id618432630?k=20&m=618432630&s=612x612&w=0&h=vUHjo0oATg7xbD4jqTSBCfsBnA4aAPBJvw0Ppb_3tq8=')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 1;
+}
+.container-contact{
+    /* border: 3px solid black; */
+    margin: 30px 0px;
+    /* position: relative; */
+}
+
+
+.form-container{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.form-detail{
+    display: block;
+    font-size: 20px;
+    padding: 8px 8px;
+    margin: 20px 20px;
+    width: 485px;
+    /* border: 3px solid red; */
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+.form-detail input,textarea{
+    display: block;
+    width: 455px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background:white;
+    margin: 10px 0px;
+    color: rgb(2, 4, 92);
+}
+
+.heading-form{
+    font-size: 25px;
+    width: fit-content;
+    margin: 20px auto;
+    padding-top:  30px;
+    color: rgb(242, 238, 247);
+    /* border: 3px solid red; */
+}
+
+input:hover{
+    transition: all 2s;
+    color: rgb(255, 245, 245);
+    background-color: black;
+    border: 2px solid rgb(20, 2, 37);
+}
+textarea:hover{
+    transition: all 2s;
+    color: rgb(255, 245, 245);
+    background-color: black;
+    border: 2px solid rgb(20, 2, 37);
+}
+.send-detail:hover{
+    transition: all 2s;
+    color: rgb(255, 245, 245);
+    background-color: black;
+    border: 2px solid rgb(20, 2, 37);
+}
+
+input[type="submit"]{
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+    color: black;
+}

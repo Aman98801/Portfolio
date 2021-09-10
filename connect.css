@@ -1,0 +1,66 @@
+/* .connections{
+} */
+body{
+    background-color: black;
+}
+.container-socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px ;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container-socialmedia img{
+    width: 200px;
+    height: 200px;
+    opacity: 0.9;
+}
+.container-socialmedia a{
+    font-size: 25px;
+    text-decoration: none;
+    margin:  60px;
+    font-weight: bold;
+    color: white;
+   border-radius: 10px;
+   /* border: 3px solid red; */
+   padding: 10px 0px;
+}
+.instagram a{
+  margin: 47px;
+}
+
+.container-socialmedia a:hover{
+    transition: all 2s;
+    border: 2px solid white;
+    background-color: aliceblue;
+    color: black;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    background-color: rgb(250, 240, 236);
+    position: sticky;
+    float: right;
+    bottom: 2px;
+   transition: all 3s;
+   
+}
+.box a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+  
+}
+.box:hover{
+     transition: all 3s;
+    background-color: rgb(20, 19, 20);
+    color: white;
+}
+.box a:hover{
+    color: white;
+}

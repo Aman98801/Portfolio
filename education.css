@@ -1,0 +1,99 @@
+.education-container{
+    /* border: 3px solid red; */
+    /* margin-top: 50px; */
+    left: 0px;
+   text-align: center;
+  
+}
+.h-secondry{
+    display: block;
+    /* border: 3px solid red; */
+    width: 250px;
+    margin: 75px auto;
+    padding: 20px 17px;
+    background: linear-gradient(to top, #6699ff 0%, #9966ff 100%);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Hahmlet', serif;
+}
+/* .collage-logo{
+    text-align: center;
+    margin: auto;
+} */
+
+/*  collage styling */
+.collage{
+    width: 33%;
+    font-size: 25px;
+    font-weight: 900;
+   box-shadow:  10px 5px 10px red;
+  /* border: 3px solid black; */
+    
+}
+.collage-logo img{
+    width: 150px;  /*200 */
+    height: 150px;
+    /* margin: auto; */
+}
+.h-third{
+    /* color: orangered; */
+    color: aliceblue;
+    /* background-color: black; */
+}
+.h-sec-school{
+    width: 33%;
+    font-size: 25px;
+    font-weight: 900;
+    /* border: 3px solid black; */
+    
+}
+.h-sec-school img{
+       width: 150px;
+       height: 150px;   /* 175 */
+}
+.sec-school{
+    width: 33%;
+    font-size: 25px;
+    font-weight: 900;
+    /* border: 3px solid black; */
+}
+.sec-school img{
+    width: 150px;  /* 170 */
+    height: 150px;
+}
+
+/* convert education container into flex box  */
+.education-container{
+    display: flex;
+    margin-top: -40px;
+}
+/* .collage,.h-sec-school,.sec-school{
+    margin: 10px;
+    border-radius: 30px;
+    background: linear-gradient(to top, #66ffcc 0%, #9966ff 100%);
+    background: linear-gradient(to bottom, #86acac 0%, #8d9bb8 100%);
+} */
+/* #education{
+ background: linear-gradient(to top, #3366cc 0%, #336699 100%);
+} */
+body{
+    background-color: black;
+}
+
+.collage, .h-sec-school, .sec-school {
+    margin: 10px;
+    border-radius: 30px;
+    /* background: linear-gradient(to top, #66ffcc 0%, #9966ff 100%); */
+    /* background: linear-gradient(to bottom, #86acac 0%, #8d9bb8 100%); */
+    background-color: rgb(99, 90, 90);
+    color: black;
+    /* box-shadow: 7px -8px 14px 1px white; */
+    box-shadow: 2px 0px 16px 5px white;
+    font-family: 'BioRhyme', serif;
+}
+
+
+
+

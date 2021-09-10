@@ -1,0 +1,650 @@
+@media  screen and (min-width:1677px){
+    #about::before {
+        height: 60%;
+    }
+}
+
+@media  screen and (min-width:1445px) and (max-width:1676px) {
+     .container1 #about_me {
+        font-size: 24px;
+        padding: 44px 65px;
+        font-weight: bold;
+        margin: 22px;
+    }
+
+    .container1 #image img {
+       
+        margin: 44px auto;
+        position: relative;
+        top: 9px;
+        
+    }
+
+    #about::before {
+        height: 55%;
+    }
+
+    .collage, .h-sec-school, .sec-school {
+        font-size: 20px;
+    }
+
+    /* skill changes for Responsive */
+    .programming {
+        font-size: 21px;
+    }
+    .front-end {
+
+        font-size: 22px;
+        margin: 15px 54px;
+    }
+    .front-end-tech {
+        margin: -7px auto;
+    }
+
+}
+@media  screen and (min-width:1236px) and (max-width:1444px) {
+ 
+    .container1 #about_me {
+        font-size: 24px;
+        padding: 40px 24px;
+    }
+    .container1 #image img {
+        position: relative;
+        top: 20px;
+    }
+    #about::before {
+        height: 55%;
+    }
+
+    /* education section */
+
+    .education-container {
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 0px; */
+        width: 792px;
+        margin: auto;
+    }
+    .collage, .h-sec-school, .sec-school {
+        margin: 19px 45px;
+        padding: 11px 0px;
+        font-size: 20px;
+        font-weight: bold;
+        height: 468px;
+        width: 702px;
+    }
+
+    /* skill section */
+    .programming {
+        font-size: 20px;
+    }
+    .front-end {
+
+        font-size: 20px;
+        margin: 15px 54px;
+    }
+    .front-end-tech {
+        margin: -7px auto;
+    }
+}
+
+
+@media screen and (min-width:900px) and (max-width:1235px) {
+
+    #about::before {
+        height: 40%;
+    }
+    #container2 {
+        height: 374px;
+    }
+    #container2 .h-primary {
+        font-size: 33px;
+    }
+    #container2 #intro {
+        font-size: 21px;
+    }
+    #container2 #resume a {
+       font-size: 24px;
+       padding: 4px 32px;
+    }
+
+    /* about section  */
+    .container1 {
+        margin: -56px auto;
+    }
+    .container1 #image img {
+        width: 260px;
+        height: 260px;
+        margin: 33px 0px;
+        margin-right: 55px;
+        position: relative;
+        top: 15px;
+        right: 48px;
+       
+    }
+    .container1 #about_me {
+       font-size: 22px;
+       padding: 42px 0px;
+    }
+    #about_me p {
+        margin: 20px -40px;
+    }
+
+    /* Education section  */
+    .h-secondry {
+        padding: 9px 8px;
+        margin: 106px auto;
+        font-size: 38px;
+    }
+    .education-container {
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 0px; */
+        width: 792px;
+        margin: auto;
+    }
+    .collage, .h-sec-school, .sec-school {
+        margin: 19px 45px;
+        padding: 11px 0px;
+        font-size: 20px;
+        font-weight: bold;
+        height: 468px;
+        width: 702px;
+    }
+    
+     /* skill section */
+     .container-skill {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .programming {
+        font-size: 24px;
+        width: 100%;
+    }
+    #skill .h-four{
+        font-size: 40px;
+    }
+    .front-end {
+        font-size: 24px;
+        width: 100%;
+    }
+    .h-sixth {
+        font-size: 35px;
+    }
+
+    /* project setting */
+    .container-project {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0px -88px;
+    }
+    .first, .second, .third {
+        font-size: 20px;
+    }
+}
+
+@media  screen and (min-width:649px) and (max-width:899px) { 
+    #about::before {
+        height: 38%;
+    }
+    #container2 .h-primary {
+        font-size: 30px;
+    }
+    #container2 #intro {
+        font-size: 15px;
+        color: white;
+    }
+    #container2 #resume a {
+        font-size: 22px;
+        padding: 4px 20px;
+    }
+    #container2 {
+        height: 314px;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container1 #about_me {
+        width: 614px;
+        font-size: 27px;
+        padding: 49px 157px;
+    }
+    .h-secondry {
+        width: 197px;
+        padding: 14px 0px;
+        font-size: 30px;
+    }
+
+    /* education settings */
+    .education-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .collage, .h-sec-school, .sec-school {
+        width: 480px;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+
+    /* skill settings */
+
+    #skill .h-four {
+        width: 122px;
+        font-size: 32px;
+    }
+    .container-skill {
+        display: flex;
+        margin-top: 33px;
+        flex-direction: column;
+    }   
+
+    .programming {
+        font-size: 20px;
+        width: 94%;
+    }
+
+    .front-end {
+        font-size: 20px;
+        width: 94%;
+    }
+
+    .h-sixth {
+        font-size: 30px;
+    }
+    .ds-algo h1 {
+        font-size: 24px;
+    }
+    .git, .ds-algo {
+        font-size: 15px;
+    }
+    .git p, .ds-algo p {
+        font-size: 22px;
+    }
+
+    /* Projects */
+    .container-project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first, .second, .third {
+        /* border: 3px solid red; */
+        font-size: 21px;
+        width: 75%;
+    }
+
+    
+    /* form setting */
+    .form-detail input, textarea {
+        width: 360px;
+        padding: 10px 9px;
+        font-size: 20px;
+        margin: 10px 57px;
+    }
+    .form-detail input.send-detail{
+        
+        width: 184px;
+        margin: auto;
+        
+    }
+    /* social media  */
+    
+   .box {
+       width: 80px;
+       height: 80px;
+   }
+   .container-socialmedia {
+       flex-wrap: wrap;
+   }
+
+}
+@media screen and (min-width:400px) and (max-width:648px){
+
+    #about::before {
+      height: 76%;
+    }
+    #container ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #container2 .h-primary {
+        font-size: 35px;
+        margin-top: -46px;
+    }
+    #container2 #intro {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 21px;
+    }
+    .container1 #image img {
+        width: 291px;
+        height: 291px;
+        margin: 21px auto;
+        position: relative;
+        top: 8px;
+        border-radius: 200px;
+    }
+    .container1 #about_me {
+        width: 318px;
+        height: 331px;
+        font-size: 21px;
+        text-align: center;
+        padding: 38px 76px;
+        margin: -18px;
+    }
+    .container1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .h-secondry {
+        margin: 155px auto;
+        padding: 12px 0px;
+        font-size: 36px;
+    }
+    .education-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .collage-logo img , .h-sec-school img , .sec-school img  {
+        width: 112px;
+        height: 112px;
+        /* margin: auto; */
+    }
+
+
+    .collage, .h-sec-school, .sec-school {
+        width: 379px;
+        height: 413px;
+        margin: 10px auto;
+        font-size: 16px;
+    }
+    #skill .h-four {
+        width: 122px;
+        font-size: 32px;
+    }
+    .h-fifth {
+        /* border: 3px solid red; */
+        width: 340px;
+        padding: 20px 20px;
+        margin: 20px auto;
+    }
+    .container-skill {
+        display: flex;
+        margin-top: 33px;
+        flex-direction: column;
+    }   
+
+    .programming {
+        font-size: 13px;
+        width: 94%;
+    }
+
+    .front-end {
+        font-size: 13px;
+        width: 94%;
+    }
+
+    .h-sixth {
+        font-size: 20px;
+    }
+    .git h1{
+        font-size: 16px;
+    }
+    .ds-algo h1 {
+        font-size: 17px;
+    }
+    .git, .ds-algo {
+        font-size: 16px;
+    }
+    .git p, .ds-algo p {
+        font-size: 17px;
+    }
+
+    /* Project  */
+
+    .container-project {
+        display: flex;
+        flex-direction: column;
+    }
+    .first, .second, .third {
+        font-size: 17px;
+        width: 100%;
+        height: 298px;
+        margin: 12px;
+    }
+     /* form setting */
+     .form-detail {
+        width: 362px;
+        font-size: 20px;
+    }
+    .form-detail input, textarea {
+        width: 310px;
+        padding: 10px 9px;
+        font-size: 20px;
+        margin: 10px 11px;
+    }
+    .form-detail input.send-detail{
+        
+        width: 184px;
+        margin: auto;
+        
+    }
+    /* social media  */
+    
+   .box {
+       width: 80px;
+       height: 80px;
+   }
+   .container-socialmedia {
+       flex-wrap: wrap;
+   }
+}
+@media screen and (max-width:400px)
+{
+    #about::before {
+        height:56%;
+      }
+      #container ul {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: -13px;
+      }
+      #container ul li {
+        list-style: none;
+        font-size: 13px
+      }
+      #container ul li a:hover{
+        font-size: 13px;
+     }
+      #container2 .h-primary {
+        font-size: 18px;
+        margin-top: -253px;
+      }
+      #container2 #intro {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          font-size: 12px;
+      }
+      #container2 #resume a {
+        font-size: 18px;
+        padding: 2px 18px;
+    }
+      .container1 #image img {
+        width: 212px;
+        height: 212px;
+        margin: -58px auto;
+        position: relative;
+        top: -169px;
+        border-radius: 200px;
+      }
+      .container1 #about_me {
+        width: 242px;
+        height: 331px;
+        font-size: 16px;
+        text-align: center;
+        padding: 38px 76px;
+        margin: -142px;
+    }
+      .container1 {
+          display: flex;
+          flex-direction: column;
+      }
+      .h-secondry {
+        width: 158px;
+        margin: 155px auto;
+        padding: 4px 0px;
+        font-size: 25px;
+        position: relative;
+         top: 56px;
+      }
+      .education-container {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .collage-logo img , .h-sec-school img , .sec-school img  {
+        width: 80px;
+        height: 80px;
+          /* margin: auto; */
+      }
+  
+  
+      .collage, .h-sec-school, .sec-school {
+        width: 203px;
+        height: 315px;
+        margin: 16px auto;
+        font-size: 11px;
+      }
+      #skill .h-four {
+        width: 66px;
+        font-size: 19px;
+      }
+      .h-fifth {
+          /* border: 3px solid red; */
+          width: 176px;
+          padding: 20px 20px;
+          margin: 20px auto;
+      }
+      .percentage {
+        width: 36px;
+        height: 34px;
+        padding-top: 18px;
+      }
+      .container-skill {
+          display: flex;
+          margin-top: 33px;
+          flex-direction: column;
+      }   
+  
+      .programming {
+          font-size: 13px;
+          width: 94%;
+      }
+  
+      .front-end {
+          font-size: 13px;
+          width: 94%;
+      }
+       
+      .h-sixth {
+        font-size: 20px;
+        margin-left: -73px;
+      }
+      .container4 {
+        margin-top: -46px;
+      }
+      .git h1{
+          font-size: 16px;
+      }
+      .ds-algo h1 {
+          font-size: 17px;
+      }
+      .git, .ds-algo {
+          font-size: 16px;
+      }
+      .git p, .ds-algo p {
+        font-size: 17px;
+        width: 38px;
+      }
+  
+      /* Project  */
+      
+      .h-seven {
+        font-size: 24px;
+        text-align: center;
+      }
+      .container-project {
+          display: flex;
+          flex-direction: column;
+      }
+      .first, .second, .third {
+        font-size: 14px;
+        width: 100%;
+        height: 268px;
+        margin: 12px;
+    }
+    .paragraph-1 span {
+        font-size: 20px;
+    }
+    .git-link a {
+        font-size: 17px;
+        padding: 10px 6px;
+        margin: -32px;
+    }
+    .first h1, .second h1, .third h1 {
+        font-size: 25px;
+        margin: 8px 0px;
+    }
+    .img-1 {
+        width: 33px;
+        height: 33px;
+    }
+       /* form setting */
+       .form-detail {
+        width: 184px;
+        font-size: 17px;
+      }
+      .form-detail input, textarea {
+        width: 176px;
+        padding: 5px -8px;
+        font-size: 14px;
+        margin: 8px -2px;
+      }
+      .form-detail input.send-detail{
+          
+          width: 108px;
+          margin: auto;
+          
+      }
+      /* social media  */
+      
+     .box {
+         width: 80px;
+         height: 80px;
+     }
+     .container-socialmedia {
+         flex-wrap: wrap;
+     }
+     .container-socialmedia img {
+        width: 140px;
+        height: 140px;
+        margin: 0px 27px;
+    }
+    .container-socialmedia a {
+        font-size: 23px;
+    }
+    #navigation::before {
+      height: 60%;
+    }
+}

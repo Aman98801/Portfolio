@@ -1,0 +1,121 @@
+/* navigation Manu */
+/* body{
+    background-color: black;
+} */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+ }
+ body {
+    margin-top: -5px;
+    margin-left: 0px;
+    margin-right: -2px;
+}
+.navigation-container{
+    position: relative;
+}
+
+/* #container{
+} */
+#container ul{
+    display: flex;
+    /* width: 600px;
+    margin: 0px auto; */
+    padding: 16px 17px;
+    border-radius: 20px;
+    justify-content:center;
+    align-items: center;
+    /* background: linear-gradient(to bottom, #99ccff 0%, #0099ff 100%); */
+}
+#container ul li{
+    list-style: none; 
+    font-size: 25px;
+    /* width: 150px; */
+}
+#container ul li a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 3px 22px;
+   }
+#container ul li a:hover{
+      text-decoration: none;
+      transition: all 2s ;
+      color: aliceblue;
+      background-color: rgb(18, 18, 19);
+      padding:5px;
+      border-radius: 10px;
+      font-size: 25px;
+   }
+
+   /* Styling in About */
+   #navigation::before{
+     content: "";
+     position: absolute;
+     background: url('./background-image.jpg') no-repeat center center/cover;
+     width: 100%;
+     height: 100%;
+     top: 0px;
+     left: 0px;
+     z-index: -1;
+     opacity: 1;
+   }
+   
+   /* now stying paragraph and Heading */
+  #container2{
+      width: 100%;
+      height: 500px;
+      /* border: 3px solid red; */
+      margin-top: 40px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #container2 .h-primary{
+        color: white;
+        font-weight: bold;
+        font-size: 50px;
+        font-family: 'Hahmlet', serif;
+    }
+    #container2 #intro{
+        box-sizing: border-box;
+        display: flex;
+        font-weight: bold;
+        font-size: 30px;
+        color: rgb(218, 197, 194);
+        /* font-family: 'Hahmlet', serif; */
+        font-family: 'Andada Pro';
+  }
+#intro span{
+    margin: 0px 1px;
+}
+
+/* Resume designing */
+#container2 #resume{
+    margin-top: 3px;
+    
+}
+#container2 #resume a{
+    text-decoration: none;
+    font-size: 30px;
+    background: linear-gradient(to left, #3399ff 0%, #ff9933 100%);
+    border-radius: 20px;
+    padding: 5px 42px;
+    
+    color: rgb(15, 15, 15);
+    border: 3px solid white;
+    
+    
+}
+#container2 #resume a:hover{
+    transition: all 2s ;
+    
+    color: rgb(86, 0, 88);
+    background: linear-gradient(to left, #58c558 0%, #a4c268 100%);
+   
+}
+
+

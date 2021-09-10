@@ -1,0 +1,153 @@
+#skill{
+    color: white;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+#skill::before{
+    content: "";
+    position: absolute;
+    background: url('./skills.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 1;
+  }
+
+#skill .h-four {
+    /* border: 3px solid red; */
+    position: relative;
+    top: 30px;
+    display: block;
+    padding: 10px;
+    width: 150px;
+    margin: 20px auto;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to top, #a19076 0%, #89ac99 100%);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Hahmlet', serif;
+}   
+
+/* flex our skill container */
+.container-skill{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.programming{
+    font-size: 30px;
+    width: 50%;
+    /* border: 2px solid red; */
+    
+     margin: 10px 10px;    
+    /* margin-top: 20px; */
+}
+.front-end{
+    /* margin-top: 20px; */
+    font-size: 30px;
+    width: 50%;
+    /* border: 2px solid white; */
+     margin: 10px 10px;
+}
+.h-fifth{
+    /* border: 3px solid red; */
+    width: 488px;
+    padding: 20px 20px;
+    margin: 20px auto;
+    /* background: linear-gradient(to bottom, #66ffcc 0%, #006666 54%); */
+    /* background: linear-gradient(to bottom, #dabc82 0%, #d884ae 54%); */
+    border-radius: 40px;
+    text-align: center;
+    /* font-family: 'Hahmlet', serif */
+}
+
+
+/* we are doing flex individual skill */
+.prog-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.percentage{
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    width: 100px;
+    height: 81px;
+    padding-top: 30px;
+    padding-left: 8px;
+    padding-right: 7px;
+    padding-bottom: -3px;
+    text-align: center;
+    border-radius: 97px;
+    background-color: #94856e;
+}
+.front-end-tech{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* border: 3px solid purple; */
+}
+.programming-tech{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    /* border: 3px solid purple; */
+}
+
+.git{
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid purple; */
+}
+.git,.ds-algo{
+    /* border: 3px solid white; */
+    /* border: 3px solid red; */
+    width: 50%;
+    /* margin-top: 10px ; */
+    margin: 10px auto;
+}
+
+.h-sixth{
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 50px;
+    font-weight: bold;
+    /* border: 3px solid blueviolet; */
+    font-size: 40px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 40px;
+    /* background: linear-gradient(to bottom, #dabc82 0%, #d884ae 54%); */
+}
+.git p,.ds-algo p{
+    font-size: 30px;
+    width: 100px;
+    margin: auto;
+    
+}
+.ds-algo h1{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+
